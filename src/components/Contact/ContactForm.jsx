@@ -3,7 +3,7 @@ import "./ContactForm.css";
 
 const ContactForm = () => {
   return (
-    <div className='contact-form-container'>
+    <div className='contact-form-container' netlify>
         <form>
             <div className='name-container'>
                 <input type="text" name='firstname' placeholder='First Name'/>
@@ -12,7 +12,7 @@ const ContactForm = () => {
             <input type="text" name='email' placeholder='Email'/>
             <textarea type='text' name='message' placeholder='Message' rows={3} />
 
-            <button>SEND</button>
+            <button type='submit'>SEND</button>
         </form>
     </div>
   )
