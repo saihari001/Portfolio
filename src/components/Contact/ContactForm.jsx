@@ -3,8 +3,8 @@ import "./ContactForm.css";
 
 const ContactForm = () => {
   return (
-    <div className='contact-form-container' netlify>
-        <form>
+    <div className='contact-form-container'>
+        <form netlify>
             <div className='name-container'>
                 <input type="text" name='firstname' placeholder='First Name'/>
                 <input type="text" name='Lastname' placeholder='Last Name'/>
