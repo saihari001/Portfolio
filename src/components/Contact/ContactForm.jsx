@@ -4,7 +4,7 @@ import "./ContactForm.css";
 const ContactForm = () => {
   return (
     <div className='contact-form-container'>
-        <form name='contact v1' netlify>
+        <form name='contact' netlify>
             <div className='name-container'>
               <p>
               <label>First name <br />
