@@ -1,0 +1,249 @@
+.hero-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-block-end: 2rem;
+}
+  
+.hero-container::before,
+.hero-container::after{
+    content: " ";
+    width: 30.125rem;
+    height: 30.125rem;
+    border-radius: 30.125rem;
+    background: #6c52de;
+    position: absolute;
+    z-index: -1;
+    filter: blur(225px);
+}
+  
+.hero-container::after{
+    top: -3rem;
+    left: -2rem;
+}
+  
+.hero-container::before{
+    bottom: 2rem;
+    right: 3rem;
+}
+  
+.name{
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: white;
+    line-height: 4rem;
+}
+  
+@media (max-width: 640px) {
+    .name{
+      text-align: center;
+    }
+}
+  
+.role{
+    padding-left: 0.2rem;
+    margin-inline: auto;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 4rem;
+    gap: 0.3rem;
+}
+  
+.intro{
+    padding-left: 0.2rem;
+    margin-inline: auto;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+  
+.role span{
+    color: #aa94fe;
+}
+  
+@media (max-width: 768px) {
+    .hero-content{
+      margin: 0;
+    }
+    .intro{
+      display: flex;
+      font-size: 1.4rem;
+      margin-bottom: -1rem;
+      text-align: center;
+      justify-content: center;
+    }
+    .name{
+      display: flex;
+      font-size: 2rem;
+      margin: -1.4rem 0;
+      text-align: center;
+      justify-content: center;
+    }
+    .role{
+      display: flex;
+      font-size: 1.4rem;
+      margin: -0.6rem 0;
+      text-align: center;
+      justify-content: center;
+    }
+}
+  
+@media (max-width: 426px) {
+    .role{
+      font-size: 1rem;
+      line-height: 2.5rem;
+      margin-bottom: 1rem;
+    }
+}
+  
+.hero-content{
+    flex: 1;
+    margin-top: 1rem;
+}
+  
+.hero-content h2{
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+}
+  
+.hero-content p{
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+  
+.hero-image img{
+    width: 66%;
+    height: 60%;
+    border-radius: 4rem;
+    animation: anime 5s linear infinite reverse;
+}
+  
+.hero-img{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+  
+@keyframes anime {
+    0%{
+      transform: translateY(0.5rem);
+    }
+    25%{
+      transform: translateX(-0.5rem);
+    }
+    50%{
+      transform: translateY(-0.5rem);
+    }
+    75%{
+      transform: translateX(0.5rem);
+    }
+    100%{
+      transform: translateY(0.5rem);
+    }
+}
+  
+.hero-img > div{
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+}
+  
+.hero-img > div > img{
+    width: 23rem;
+    transition: all 0.3s ease;
+}
+  
+.tech-icon{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.65rem;
+    border: 1.5px solid #6852ba;
+}
+  
+.tech-icon img{
+    width: 2.3rem;
+    height: auto;
+    transition: all 0.3s ease;
+}
+  
+.tech-icon img:hover{
+    transform: translateY(-0.5rem);
+}
+  
+@media (max-width: 1025px) {
+    .hero-content h2{
+      font-size: 3rem;
+      line-height: 4rem;
+    }
+    .hero-content p{
+      font-size: 0.9rem;
+      line-height: 1.6rem;
+    }
+    .hero-img > div > img{
+      width: 20rem;
+    }
+    .tech-icon{
+      width: 4rem;
+      height: 4rem;
+    }
+    .tech-icon img{
+      width: 2.5rem;
+    }
+}
+  
+@media (max-width: 768px) {
+    .hero-container{
+      flex-direction: column;
+      display: flex;
+    }
+    .hero-image img{
+      width: 200px;
+    }
+    .hero-img{
+      margin: 0 0 -1rem 0;
+    }
+    .tech-icon{
+      width: 2rem;
+      height: 2rem;
+    }
+    .tech-icon img{
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    .hero-container h2{
+      margin-top: 1.5rem;
+    }
+    .hero-content h2,
+    .hero-content p{
+      width: auto;
+      text-align: center;
+    }
+    .hero-content h2{
+      font-size: 2rem;
+    }
+    .hero-container::before,
+    .hero-container::after{
+      content: " ";
+      width: 18rem;
+      height: 18rem;
+    }
+    .hero-container::after{
+      top: 0;
+      left: 0;
+    }
+    .hero-container::before{
+      bottom: 2rem;
+      right: 0;
+    }
+}
