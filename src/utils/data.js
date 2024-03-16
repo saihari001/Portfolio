@@ -74,6 +74,12 @@ export const PROJECT = [
         github: "https://github.com/saihari001/Nexus-Web-Application",
         site: "https://nexusintern.netlify.app/",
     },
+    {
+        title: "MERN Authentication",
+        image: "./assets/images/Authentication.png",
+        github: "https://github.com/saihari001/MERN-Authentication",
+        site: "https://mern-authentication-23df.onrender.com/",
+    }
 ];
 
 export const WORK_EXPERIENCE = [
