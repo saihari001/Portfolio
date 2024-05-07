@@ -79,6 +79,12 @@ export const PROJECT = [
         image: "./assets/images/Authentication.png",
         github: "https://github.com/saihari001/MERN-Authentication",
         site: "https://mern-authentication-23df.onrender.com/",
+    },
+    {
+        title: "E-Commerce Website",
+        image: "./assets/images/E_commerce.png",
+        github: "https://github.com/saihari001/MERN-ECOMMERCE",
+        site: "https://mern-ecommerce-bab0.onrender.com/",
     }
 ];
 
