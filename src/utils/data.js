@@ -9,7 +9,6 @@ export const BIO =
         ]
     }
 
-
 export const SKILLS = [
     {
         title: "Frontend",
@@ -90,8 +89,18 @@ export const PROJECT = [
 
 export const WORK_EXPERIENCE = [
     {
-        title: "Web Developer Intern at Nexus info",
-        date: "Dec 2023 - March 2024",
+        title: "Full Stack Developer Intern at Revoh Innovation",
+        date: "Jun 2024 - Nov 2024",
+        responsibilities: [
+            "Worked as Full Stack Developer in creating EMS Platform for a Startup Company",
+            "Assigned as Frontend developer as well as Backend Developer",
+            "Gained hands-on-experience working in Agile methodology and scrum framework with team in Azure Devops and JIRA tools",
+            "Used tools React, MUI, TS, Nodejs, Expressjs",
+        ],
+    },
+    {
+        title: "Web Developer Intern at Nexus Info",
+        date: "Dec 2023 - Mar 2024",
         responsibilities: [
             "Assigned in the development of a responsive frontent websites, contributing to the implementation of react.js.",
             "Learned to deploy a website and improved 15% faster page load times by neat and reduce coding.",
@@ -108,4 +117,3 @@ export const WORK_EXPERIENCE = [
         ],
     },
 ];
-

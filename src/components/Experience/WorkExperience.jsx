@@ -10,14 +10,14 @@ const WorkExperience = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slideToShow: 2,
+        slideToShow: 3,
         slideToScroll: 1,
         arrows: false,
         responsive: [
             {
                 breakpoint: 769,
                 settings: {
-                    slideToShow: 1,
+                    slideToShow: 2,
                     slideToScroll: 1,
                 },
             },
