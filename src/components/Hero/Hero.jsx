@@ -26,7 +26,7 @@ const Hero = () => {
                     />
                 </span>
             <p>
-            Enthusiastic and dedicated individuals with a passion for web developer with
+            Enthusiastic and dedicated individuals with a passion for Software development with
             proficient in front-end and back-end technologies, Eager to take a new challenges with passion for learning. I am dedicated to delivering a high quality results.
             I am ready to make a meaningful contribution and achieve greater things.
             </p>
