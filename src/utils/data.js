@@ -7,7 +7,6 @@ export const BIO =
             " Frontend Developer",
             " Backend Developer",
             " Web Developer",
-            " Certified AWS Cloud Practitioner"
         ]
     }
 
