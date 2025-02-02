@@ -30,7 +30,7 @@ const Hero = () => {
             proficient in front-end and back-end technologies, Eager to take a new challenges with passion for learning. I am dedicated to delivering a high quality results.
             I am ready to make a meaningful contribution and achieve greater things.
             </p>
-            <button className='contact-btn' onClick={() => {}}><a href="./assets/files/HariPrasanthS_Resume.pdf" download> Download Resume</a></button>
+            <button className='contact-btn' onClick={() => {}}><a href="./assets/files/HariPrasanthS_Resume.pdf" target="_blank" rel="noreferrer"> Download Resume</a></button>
         </div>
         <div className="hero-img">
             <div>

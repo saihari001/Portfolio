@@ -2,10 +2,12 @@ export const BIO =
     {
         name: "Hari Prasanth",
         role: [
+            " Software Developer",
+            " Full Stack Developer",
             " Frontend Developer",
             " Backend Developer",
-            " Full Stack Developer",
-            " Web Developer"
+            " Web Developer",
+            " Certified AWS Cloud Practitioner"
         ]
     }
 
@@ -89,10 +91,11 @@ export const PROJECT = [
 
 export const WORK_EXPERIENCE = [
     {
-        title: "Full Stack Developer Intern at Revoh Innovation",
+        title: "Software Developer Intern at Revoh Innovation",
         date: "Jun 2024 - Nov 2024",
+        certificate: "./assets/files/HariPrasanthS_Revoh_Internship_Certs.pdf",
         responsibilities: [
-            "Worked as Full Stack Developer in creating EMS Platform for a Startup Company",
+            "Worked as Developer in creating EMS Platform for a Startup Company",
             "Assigned as Frontend developer as well as Backend Developer",
             "Gained hands-on-experience working in Agile methodology and scrum framework with team in Azure Devops and JIRA tools",
             "Used tools React, MUI, TS, Nodejs, Expressjs",
@@ -101,6 +104,7 @@ export const WORK_EXPERIENCE = [
     {
         title: "Web Developer Intern at Nexus Info",
         date: "Dec 2023 - Mar 2024",
+        certificate: "./assets/files/HariPrasanthS_Nexus_Internship_Certs.pdf",
         responsibilities: [
             "Assigned in the development of a responsive frontent websites, contributing to the implementation of react.js.",
             "Learned to deploy a website and improved 15% faster page load times by neat and reduce coding.",
@@ -110,6 +114,7 @@ export const WORK_EXPERIENCE = [
     {
         title: "Full Stack Developer Certification Course at IFandFOR Endevour",
         date: "May 2023 - Nov 2023",
+        certificate: "./assets/files/HariPrasanthS_WebDevelopment_Course_Certs.pdf",
         responsibilities: [
             "Learned Frontend and as well as Backend to develop a web application.",
             "Developed Doctor appointment booking and student management system as a backend project.",
